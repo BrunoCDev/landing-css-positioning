@@ -1,0 +1,41 @@
+header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: goldenrod;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 1px 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    background: url('https://i.pinimg.com/736x/6c/38/47/6c3847f41007932c154eff8303a69863--crane-logo-cool-logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button:hover {
+    background-color: blue;
+    border: 10px solid green;
+}
+
